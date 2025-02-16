@@ -1,0 +1,71 @@
+/* General body styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navbar container */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 25px 30px;
+    color: white;
+  }
+  
+  /* Logo style */
+  .navbar .logo {
+    font-size: 30px;
+  font-weight: bolder;  /* Make the text extra bold */
+
+    color: rgb(0, 0, 0)
+  }
+
+  .navbar .logo img {
+    height: 40px; /* Adjust the logo height */
+    width: auto;  /* Maintain aspect ratio */
+  }
+  
+  /* Navbar menu links */
+  .navbar .menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Menu links default style */
+  .navbar .menu a {
+    text-decoration: none;
+    color: rgb(122, 118, 118);
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  /* Menu links hover effect */
+  .navbar .menu a:hover {
+    color: #1ABC9C;
+  }
+  
+  /* Button container */
+  .navbar .buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  /* Button styles */
+  .navbar .buttons .btn {
+    padding: 8px 15px;
+    background-color: #425bea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button hover effect */
+  .navbar .buttons .btn:hover {
+    background-color: #16A085;
+  }
+  
