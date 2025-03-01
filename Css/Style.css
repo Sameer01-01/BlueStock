@@ -13,7 +13,9 @@ body {
     background-color: #ffffff;
     padding: 25px 30px;
     color: white;
+
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+
   }
   
   /* Logo style */
@@ -69,6 +71,7 @@ body {
   .navbar .buttons .btn:hover {
     background-color: #16A085;
   }
+
 
 
   .Upcomming-IPO{
