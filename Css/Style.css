@@ -13,6 +13,9 @@ body {
     background-color: #ffffff;
     padding: 25px 30px;
     color: white;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+
   }
   
   /* Logo style */
@@ -68,4 +71,88 @@ body {
   .navbar .buttons .btn:hover {
     background-color: #16A085;
   }
+
+
+
+  .Upcomming-IPO{
+    padding-left: 9px;
+    display: flex;
+    justify-content:space-evenly ;
+  }
+
+.box{
+   
+    height: 300px;
+    width:29%;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+
+ /*Frequently Asked Questions part */
+
+.container {
+  width: 100%;
+  max-width: 1350px;
+  margin: 25px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-btn {
+  font-size: 25px;
+  font-weight: bold;
+  color:rgb(49, 176, 234);
+  cursor: pointer;
+}
+
+.question-strip {
+  display: flex;
+  justify-content: space-between; /* This will align the text and the + sign to opposite ends */
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.answer {
+  display: none; /* Initially hidden, you can toggle this via JavaScript */
+}
+
+h2{
+  padding-left: 52px;
+}
+
+p{
+  padding-left: 52px;
+}
+
+h2, p {
+  margin: 5px;
   
+}
+
+
+
+.breadcrumb {
+
+  padding-left: 57px;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #333;
+}
+
+.breadcrumb a {
+
+  text-decoration: none;
+  color: #0004ff;  /* Link color */
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline; /* Underline the links on hover */
+}
+
+.breadcrumb > a + span {
+  margin-left: 10px;  /* Adjusts the spacing between links and the arrows */
+}
